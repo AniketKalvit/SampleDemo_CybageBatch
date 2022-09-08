@@ -8,9 +8,9 @@ namespace SampleDemo
 {
     internal class Class2
     {
-        //static void Main(string[] args)
-        //{
-        //    Console.WriteLine("Class 2 file");
-        //}
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Class 2 file");
+        }
     }
 }

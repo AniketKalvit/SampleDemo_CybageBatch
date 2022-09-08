@@ -10,28 +10,20 @@ namespace SampleDemo
     {
         static void Main(string[] args)
         {
-            // accept two numbers from user & ask for operation
-            // 1 add , 2 sub , 3 multiply  4 div  5  mod
-            // based on user selection display the output
-            Console.WriteLine("1. for Eng");
-            Console.WriteLine("2. for Hindi");
-            Console.WriteLine("3. for Marathi");
-            Console.WriteLine("select your option");
-            int num = Convert.ToInt32(Console.ReadLine());
-            switch (num)
+            // nesting of loop
+            //*
+            //**
+            //***
+            //*****
+            // for loop
+
+            for (int i = 1; i <=4; i++) // row
             {
-                case 1:
-                    Console.WriteLine("You have selected Eng lang");
-                break;
-                case 2:
-                    Console.WriteLine("You have selected Hindi lang");
-                break;
-                case 3:
-                    Console.WriteLine("You have selected Marathi lang");
-                    break;
-                default:
-                    Console.WriteLine("Wrong input");
-                    break;
+                for (int j =1; j <=i; j++) // column
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();    
             }
         }
     }
