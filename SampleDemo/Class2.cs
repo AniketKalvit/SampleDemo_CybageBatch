@@ -10,7 +10,8 @@ namespace SampleDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Class 2 file"); 
+            Console.WriteLine("Class 2 file");
+            Console.WriteLine("Test");
         }
     }
 }
